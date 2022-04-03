@@ -1,0 +1,12 @@
+import './App.scss';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+
+const App = () => (
+    <div className="wrapper__power">
+        <Nav />
+        <Header />
+    </div>
+);
+
+export default App;

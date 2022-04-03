@@ -1,0 +1,42 @@
+.slider {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(3fr);
+
+    &__title {
+        text-align: center;
+        margin: 32px 0px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 83px;
+        text-align: center;
+
+        color: #F2F4F7;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin: 32px 0px;
+        color: #F2F4F7;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        margin: 64px auto;
+        padding: 16px 96px;
+        max-width: 239px;
+
+        background: linear-gradient(92.82deg, #FC4060 35%, #8061FD 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 2px solid rgba(252, 64, 96, 1);
+    }
+}
