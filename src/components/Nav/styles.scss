@@ -1,11 +1,17 @@
 ///nav
 .NAV {
     display: grid;
-    grid-template-columns: 38px auto max(427px) auto max(159px);
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
     padding: 32px;
+    margin-bottom: 184px;
 
-    &__logo-svg {
-        width: 38px;
+    &__logo {
+        max-width: 38px;
+
+        &-svg {
+            width: 38px;
+        }
     }
 
     &__list {

@@ -1,16 +1,16 @@
 .slider {
     display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-rows: repeat(3fr);
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
 
     &__title {
-        text-align: center;
         margin: 32px 0px;
+        // max-width: 598px;
+        // text-align: center;
         font-style: normal;
         font-weight: 300;
         font-size: 72px;
         line-height: 83px;
-        text-align: center;
 
         color: #F2F4F7;
     }
@@ -20,7 +20,6 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 21px;
-        text-align: center;
         margin: 32px 0px;
         color: #F2F4F7;
     }
@@ -30,13 +29,39 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
-        margin: 64px auto;
+        margin: 80px 0 64px;
         padding: 16px 96px;
         max-width: 239px;
 
         background: linear-gradient(92.82deg, #FC4060 35%, #8061FD 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        border: 2px solid rgba(252, 64, 96, 1);
+
+        border: 2px solid;
+        border-image: linear-gradient(92.82deg, #FC4060 0%, #8061FD 100%);
+        border-image-slice: 1;
+    }
+
+    &__controls {
+        display: flex;
+        justify-content: space-between;
+
+        &__dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 2px solid rgba(196, 196, 196, 0.16);
+            margin-right: 32px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &-active {
+                border-color: rgba(255, 255, 255, 1);
+            }
+        }
+
+
     }
 }
