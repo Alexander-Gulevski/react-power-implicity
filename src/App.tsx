@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 
 const App = () => (
-    <div className="wrapper__power">
+    <div className="App">
         <Nav />
         <Header />
     </div>
