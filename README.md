@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 https://xolod1501.github.io/react-power-implicity/
+
 ![image](https://user-images.githubusercontent.com/95612634/161751049-d0fa650b-b00f-4e2c-be94-0b084332296e.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
