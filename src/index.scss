@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 a {
@@ -10,19 +10,19 @@ a {
 }
 
 button {
-  border: 0;
-  background: none;
-  cursor: pointer;
-  outline: none;
   font-family: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
 }
 
 ul,
-ol {
+li {
   list-style: none;
 }
 
 body {
-  font-family: 'Yantramanav', sans-serif;
-  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100%);
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(124.53deg, #fc3f5f 0%, #7d61ff 100.32%);
 }

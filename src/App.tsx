@@ -1,12 +1,14 @@
-import './App.scss';
-import Header from './components/Header/Header';
+import './app.scss';
 import Nav from './components/Nav/Nav';
+import Slider from './components/Slider/Slider';
 
-const App = () => (
-    <div className="App">
-        <Nav />
-        <Header />
-    </div>
-);
+const App = () => {
+    return (
+        <div className="app">
+            <Nav />
+            <Slider />
+        </div>
+    );
+};
 
 export default App;
