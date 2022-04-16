@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-power-implicity/static/css/main.756f9ed0.css",
-    "main.js": "/react-power-implicity/static/js/main.75698b42.js",
-    "static/media/Apple.svg": "/react-power-implicity/static/media/Apple.e527469725e37f7b8dbf76b34ab12d87.svg",
+    "main.css": "/react-power-implicity/static/css/main.920f67b9.css",
+    "main.js": "/react-power-implicity/static/js/main.1945b89a.js",
+    "static/media/logo.svg": "/react-power-implicity/static/media/logo.e527469725e37f7b8dbf76b34ab12d87.svg",
     "index.html": "/react-power-implicity/index.html",
-    "main.756f9ed0.css.map": "/react-power-implicity/static/css/main.756f9ed0.css.map",
-    "main.75698b42.js.map": "/react-power-implicity/static/js/main.75698b42.js.map"
+    "main.920f67b9.css.map": "/react-power-implicity/static/css/main.920f67b9.css.map",
+    "main.1945b89a.js.map": "/react-power-implicity/static/js/main.1945b89a.js.map"
   },
   "entrypoints": [
-    "static/css/main.756f9ed0.css",
-    "static/js/main.75698b42.js"
+    "static/css/main.920f67b9.css",
+    "static/js/main.1945b89a.js"
   ]
 }
